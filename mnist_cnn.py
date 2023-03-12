@@ -36,8 +36,6 @@ print("Label:", label)
 print("shape:", image.shape)
 
 """ Implementing LeNets architecture and resizing our 28x28 images -> 32x32 to feed to our CNN """
-
-
 class LeNet(nn.Module):
     def __init__(self):
         super(LeNet, self).__init__()
